@@ -191,7 +191,6 @@ void MarkerServer::createInteractiveMarkers()
 
 
   server.insert(int_marker, boost::bind(&MarkerServer::processFeedback, this, _1));
-
   server.applyChanges();
 }
 
